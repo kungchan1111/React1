@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/React1/static/css/main.491d9b27.css",
+    "main.js": "/React1/static/js/main.067f8ce3.js",
+    "static/media/Rectangle 5.svg": "/React1/static/media/Rectangle 5.91cb78ef2facbbda6cb8169e978f900f.svg",
+    "static/media/Ellipse 1.svg": "/React1/static/media/Ellipse 1.baf447cbc9350560620e48cce714862d.svg",
+    "static/media/Rectangle 4.svg": "/React1/static/media/Rectangle 4.71a8f245e38c7e13118f960a00da35b5.svg",
+    "static/media/Rectangle 6.svg": "/React1/static/media/Rectangle 6.515a99f9972435cf2493e092e5f67ce5.svg",
+    "static/media/Banner.svg": "/React1/static/media/Banner.fe794a5e3383fe25c7b5ef04e8501a66.svg",
+    "static/media/insta.svg": "/React1/static/media/insta.3d68c46cfdb30a63df12cfd1e23c9a94.svg",
+    "static/media/X.svg": "/React1/static/media/X.6969718ea1471e25dae170e7a3afc4bb.svg",
+    "index.html": "/React1/index.html",
+    "static/media/Linkedin.svg": "/React1/static/media/Linkedin.05ad1948f9e4becd70e323c2cf6089bc.svg",
+    "static/media/fb.svg": "/React1/static/media/fb.09acd56da0adb2d6e6e32841041e5a3a.svg",
+    "main.491d9b27.css.map": "/React1/static/css/main.491d9b27.css.map",
+    "main.067f8ce3.js.map": "/React1/static/js/main.067f8ce3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.491d9b27.css",
+    "static/js/main.067f8ce3.js"
+  ]
+}
