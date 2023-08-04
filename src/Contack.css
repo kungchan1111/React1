@@ -1,0 +1,86 @@
+@media screen and (max-width: 1023px) {
+  .contact {
+    height: max-content !important;
+    margin: 0 !important;
+  }
+
+  .contact > img {
+    height: max-content !important;
+  }
+  .contactForm {
+    padding: 0 18px !important;
+    margin-top: 30px !important;
+  }
+}
+
+.contact {
+  width: 100vw;
+  height: 1800px;
+  max-width: 943px;
+  margin: 70px auto 0;
+}
+
+.contact > img {
+  width: 100%;
+  height: 335px;
+}
+
+.contactForm {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 120px 190px;
+}
+
+.contactForm > span {
+  margin-bottom: 71px;
+  color: #242f65;
+  text-align: center;
+  font-family: Heebo;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 110%; /* 55px */
+}
+
+.f-wrap {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 45px;
+}
+
+.f-wrap > span {
+  color: #242f65;
+  font-family: Heebo;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 30px */
+  text-transform: capitalize;
+}
+
+.f-wrap > input {
+  margin-top: 15px;
+  width: 100%;
+  height: 80px;
+  border-radius: 10px;
+  border: 1px solid #dcdcdc;
+  background-color: #fff;
+  padding: 28px;
+  box-sizing: border-box;
+}
+
+.f-wrap:nth-last-child(2) > input {
+  height: 194px;
+}
+
+.f-wrap > button {
+  width: 100%;
+  height: 41px;
+  border-radius: 10px;
+  background-color: #ff774c;
+  border: none;
+  color: #fff;
+}

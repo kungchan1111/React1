@@ -1,0 +1,110 @@
+@media screen and (max-width: 1023px) {
+  .w-detail {
+    padding: 0 18px !important;
+  }
+  .w-detail > img {
+    width: 100% !important;
+    height: max-content !important;
+  }
+}
+
+.w-detail {
+  width: 100vw;
+  padding: 93px 235px 53px;
+  display: flex;
+  flex-direction: column;
+}
+
+.w-detail > span:nth-child(1) {
+  color: var(--dark-color, #21243d);
+  font-family: Heebo;
+  font-size: 34px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 30px;
+}
+
+.w-detail > div {
+  margin-bottom: 23px;
+  display: flex;
+  flex-direction: row;
+}
+
+.w-detail > div > span:nth-child(1) {
+  margin-right: 17px;
+  width: 62px;
+  height: 25px;
+  border-radius: 16px;
+  background: var(--year, #ff7c7c);
+  color: #fff;
+  font-family: Heebo;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 60px; /* 333.333% */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.w-detail > div > span:nth-child(2) {
+  color: var(--dark-color, #21243d);
+  font-family: Heebo;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.w-detail > span:nth-child(3) {
+  color: #000;
+  font-family: Heebo;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 46px;
+}
+
+.w-detail img {
+  width: 681px;
+  height: 460px;
+}
+
+.w-detail > img:nth-of-type(1) {
+  margin-bottom: 54px;
+}
+
+.w-detail > span:nth-child(5) {
+  color: var(--dark-color, #21243d);
+  font-family: Heebo;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 60px; /* 200% */
+}
+
+.w-detail > span:nth-child(6) {
+  color: var(--dark-color, #21243d);
+  font-family: Heebo;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 60px; /* 250% */
+  margin-bottom: 19px;
+}
+
+.w-detail > span:nth-child(7) {
+  color: #000;
+  font-family: Heebo;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 30px;
+}
+
+.w-detail > img:nth-of-type(2) {
+  margin-bottom: 27px;
+}

@@ -1,0 +1,36 @@
+@media screen and (max-width: 1023px) {
+  .introBottom {
+    height: 500px !important;
+  }
+  .b-top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .b-btm {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .b-btm > div:not(:nth-child(1)) {
+    display: none;
+  }
+}
+
+.introBottom {
+  width: 100vw;
+  height: 868px;
+  max-width: 856px;
+  margin: 15px auto 83px;
+}
+
+.b-top {
+  color: var(--dark-color, #21243d);
+  font-family: Heebo;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}

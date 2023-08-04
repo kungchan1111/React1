@@ -1,0 +1,32 @@
+@media screen and (max-width: 1023px) {
+  .work {
+    height: max-content !important;
+  }
+  .work > span {
+    padding: 0 18px;
+  }
+
+  .w-btm {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 18px;
+  }
+}
+
+.work {
+  width: 100vw;
+  height: 1200px;
+  max-width: 682px;
+  margin: 93px auto 53px;
+}
+
+.work > span {
+  color: var(--dark-color, #21243d);
+  font-family: Heebo;
+  font-size: 44px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 60px; /* 136.364% */
+}

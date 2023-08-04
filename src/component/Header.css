@@ -1,0 +1,98 @@
+.header {
+  width: 100vw;
+  max-width: 1032px;
+  margin: 0 auto;
+  height: 97px;
+  padding: 27px 60px;
+}
+
+.header a {
+  color: #000;
+  text-align: right;
+  font-family: Heebo;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-decoration: none;
+}
+
+.h-right {
+  width: 236px;
+}
+
+.active {
+  color: var(--primary, #ff6464) !important;
+}
+
+.hamburger {
+  width: 30px;
+  height: 30px;
+  transition-duration: 0.5s;
+}
+.hamburger .icon {
+  transition-duration: 0.5s;
+  position: absolute;
+  height: 4px;
+  width: 30px;
+  top: 45px;
+  background-color: #212121;
+}
+.hamburger .icon:before {
+  transition-duration: 0.5s;
+  position: absolute;
+  width: 30px;
+  height: 4px;
+  background-color: #212121;
+  content: "";
+  top: -10px;
+}
+.hamburger .icon:after {
+  transition-duration: 0.5s;
+  position: absolute;
+  width: 30px;
+  height: 4px;
+  background-color: #212121;
+  content: "";
+  top: 10px;
+}
+.hamburger.open .icon {
+  transition-duration: 0.5s;
+  background: transparent;
+}
+.hamburger.open .icon:before {
+  transform: rotateZ(45deg) scaleX(1.25) translate(7px, 7px);
+}
+.hamburger.open .icon:after {
+  transform: rotateZ(-45deg) scaleX(1.25) translate(6px, -6px);
+}
+.hamburger:hover {
+  cursor: pointer;
+}
+
+.m-h-hamburger {
+  display: none;
+}
+
+@media screen and (max-width: 1023px) {
+  .m-h-hamburger {
+    display: block;
+    position: absolute;
+    top: 0px;
+    right: 30px;
+  }
+  .h-left {
+    display: none;
+  }
+  .h-right {
+    position: absolute;
+    top: -30px;
+    right: 100px;
+    transition: all 0.7s;
+  }
+  .h-right.active {
+    position: absolute;
+    top: 30px;
+    right: 100px;
+  }
+}

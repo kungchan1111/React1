@@ -1,0 +1,24 @@
+.footer {
+  width: 100%;
+  height: 182px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.f-top {
+  width: 232px;
+  height: 30px;
+  margin-bottom: 26px;
+}
+
+.f-btm {
+  color: var(--dark, #21243d);
+  text-align: center;
+  font-family: Heebo;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}

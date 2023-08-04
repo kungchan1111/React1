@@ -1,0 +1,40 @@
+@media screen and (max-width: 1023px) {
+  .blog > span {
+    padding: 0 18px;
+  }
+
+  .bl-btm > div {
+    height: max-content !important;
+  }
+  .bl-btm {
+    width: 100%;
+    padding: 0 18px;
+  }
+}
+
+.blog {
+  width: 100vw;
+  max-width: 682px;
+  margin: 93px auto 53px;
+}
+
+/* 자식만 적용됨 */
+.blog > span {
+  color: var(--dark-color, #21243d);
+  font-family: Heebo;
+  font-size: 44px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 60px; /* 136.364% */
+}
+
+.bl-btm {
+  margin-top: 23px;
+}
+
+.bl-btm > div {
+  width: 100%;
+  height: 200px;
+  padding: 32px 0;
+  border-bottom: 1px solid #e0e0e0;
+}
